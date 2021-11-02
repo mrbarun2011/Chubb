@@ -1,17 +1,15 @@
 Claim Data Analysis
-Overview
-    Description
-    nalyze simulated claims and property data and build a model that predicts claim frequency from property attributes
+Description
+Analyze simulated claims and property data and build a model that predicts claim frequency from property attributes
 
 Abstract
- 1) Preprocessing : merged different adat sources 
- 2) Exploration- analysis the patttern of the data for Possion Analysis 
- 3) Modelling - analyics and interpect the features using  stat model(Poisson) and done final modelling with Sklearn (PoissonRegressor)
+ 1) Preprocessing: merged different data sources 
+ 2) Exploration- analysis the pattern of the data for Poisson Analysis 
+ 3) Modelling - analytics and intercept the features using stat model(Poisson) and done final modelling with SkLearn (PoissonRegressor)
 
 
-Setup Conda Environment and Launch Notebook
-With Conda installed, run
-
-$ git clone https://github.com/
+Setup Conda Environment and Launch Notebook With Conda installed, run
+$ git clone https://github.com/mrbarun2011/Chubb.git
 $ conda env create
 $ source activate Chubb.
+
