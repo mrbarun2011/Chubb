@@ -1,4 +1,7 @@
 name: Chubb
 dependencies:
-  - python>=3.4
+  - python =3.4
   - anaconda
+  - pip:
+      - pyarrow
+      - patsy
