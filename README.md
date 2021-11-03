@@ -3,11 +3,13 @@ Description
 Analyze simulated claims and property data and build a model that predicts claim frequency from property attributes
 
 Abstract
- 1) Preprocessing: merged different data sources 
+ 1) Preprocessing: merged different data sources (like working columns to rectify the non leap year dates)
  2) Exploration- analysis the pattern of the data for Poisson Analysis 
  3) Modelling - analytics and intercept the features using stat model(Poisson) and done final modelling with SkLearn (PoissonRegressor)
 
-mean_poisson= 0.0995
+Used NegativeBinomial with exposure in glm while modelling
+Deviance = 980.75
+Log-Likelihood: -5942.8
 
 Varaince looks less than mean, would have tried quasi  poisson model 
 
