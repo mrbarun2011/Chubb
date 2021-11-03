@@ -13,7 +13,8 @@ Varaince looks less than mean, would have tried quasi  poisson model
 
 Setup Conda Environment and Launch Notebook With Conda installed, run
 
-$ git clone https://github.com/mrbarun2011/Chubb.git
-$ conda env create
-$ source activate Chubb.
+1) $ git clone https://github.com/mrbarun2011/Chubb.git
+
+2) $ conda env create
+3) $ source activate Chubb.
 
